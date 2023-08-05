@@ -1,0 +1,89 @@
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup-header{ 
+    margin: auto;
+    width: 25%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.img-ab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -30px;
+}
+
+/*----------POP_UP CSS----------*/
+/* DOCTOR CSS*/
+.button-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.button-flex a{
+    padding: 10px;
+    background-color: rgba(233, 237, 242, 1);
+    border-radius: 8px;
+}
+.button-con{
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+.button-con:hover{
+    background: green;
+    text-decoration: none;
+    color: white;
+}
+.button-cancel{
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: black;
+}
+.button-cancel:hover{
+    background: red;
+    text-decoration: none;
+    color: white;
+}
+
+
+

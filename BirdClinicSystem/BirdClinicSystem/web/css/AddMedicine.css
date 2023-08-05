@@ -1,0 +1,318 @@
+
+.body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #F5F5F5;
+}
+.container-form{
+    position: relative; 
+    top: 100px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding:50px;
+}
+.form-white{
+    padding:30px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.selecttextbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    background-color: #f6f6f6;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px 5px 5px 5px; 
+    width: 100%; 
+    margin: 5px; 
+    border: 2px solid #f6f6f6; 
+    background-position: right center;
+    border-right-width: 20px;
+}
+.cen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tablecc,tr{
+    width: 100%;
+/*    border-bottom: 1px solid rgba(201, 202, 202, 1); */
+    text-align: center;
+    font-weight: bold; 
+    color: rgba(63, 66, 84, 1);
+    opacity: 0.9;
+}
+.table-tr1{
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.tabble-tr{
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.table-tr td{
+    padding: 20px;
+    color: black;
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.table-tr1 td{
+    padding: 20px;
+    color: rgba(201, 202, 202, 1);   
+}
+.pending{
+    border-radius: 10px;
+    width: 100%;
+    background-color:rgba(255, 244, 222, 1);
+    color:rgba(255, 168, 0, 1);
+    
+}
+.completed{
+    border-radius: 10px;
+    width: 100%;
+    background-color:rgba(201, 247, 245, 1);
+    color:rgba(27, 197, 189, 1);
+}
+
+.appoint-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Date-box{
+    font-size:smaller;
+    border: none;
+    outline: none;
+}
+.box-shade{
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+        
+}
+
+/* Search Bar*/
+
+.search{
+    display: flex;
+    background: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+.search input{
+    border: none;
+    width: 100%;
+
+}
+.search button{
+    border: none;
+    background-color: white;
+
+}
+.selecttextbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 0px;
+    height: 6vh;
+    outline: none;
+    background-color: #f6f6f6;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px 5px 5px 5px; 
+    width: 50%;  
+    border: 2px solid #f6f6f6; 
+    background-position: right center;
+    border-right-width: 20px;
+}
+/* CSS Medicine*/
+.flexing{
+    display: flex;
+    justify-content: space-around;
+}
+.textbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    width: 70%;
+     height: 100px;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+input[type=text], textarea[type=text], input[type=number] {
+    background-color: #f6f6f6;
+    border: none;
+    outline: none;
+    color: #0d0d0d;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    width: 100%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    resize: none;
+}
+
+input[type=text]:focus, textarea[type=text]:focus,input[type=number]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder, textarea[type=text]:placeholder,input[type=number]:placeholder {
+    color: #cccccc;
+}
+
+.button{
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 20px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: green;
+    color: white;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 whitesmoke;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: rgba(62, 214, 168, 1);
+    color: white;
+    
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+    
+    margin: auto;
+    width: 90%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.form-container h1{
+    text-align: center;
+    color: rgba(41, 190, 27, 1);
+}
+.form-container p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 50px;
+    text-align: left;
+    color:rgba(102, 102, 102, 1);
+}
+.edit-button{
+    width: 200px;
+    margin: 30px;
+    
+    
+}
+.form-container flex-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-container flex-header h1{
+    flex-grow: 2;
+    text-align: center;
+}
+.modal-close{
+    color: black;
+    margin-right: 30px;
+    margin-top: 1px;
+}
+.modal-close:hover{
+    color: red;
+   
+}
+/*----------POP_UP CSS----------*/
+/* DOCTOR CSS*/
+.button-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.button-flex a{
+    padding: 10px;
+    background-color: rgba(233, 237, 242, 1);
+    border-radius: 8px;
+}
+
+

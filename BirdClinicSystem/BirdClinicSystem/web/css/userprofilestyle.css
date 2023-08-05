@@ -1,0 +1,266 @@
+.body{
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel{
+    z-index: 1;
+}
+
+.underlineHoverlogin:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+.underlineHoverlogin:hover {
+    color: #33ab5f ;
+}
+
+
+
+.underlineHover:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+
+.underlineHover:hover {
+    color: #33ab5f ;
+}
+
+.underlineHover:hover:after{
+    width: 100%;
+}
+.mark1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address{
+    text-align: center;
+}
+.mark1 h1{
+    margin-left: 5px;
+}
+
+.login2{
+    flex-grow: 4;
+    text-align: end;
+    margin-right: 2%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.userprofile{
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    top:100px;
+}
+
+.leftprofile{
+    margin: 0px 0 200px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(225, 225, 225, 0.44);
+    width: 25%;
+    padding-bottom: 5%;
+}
+
+.rightprofile{
+    width: 75%;
+    margin: 30px;
+    font-size: 20px; 
+    margin-top: 0px;
+}
+.rightprofile h1{
+    font-size: 30px;
+    margin-bottom: 10px;    
+}
+
+.userlogo img{
+    max-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid rgb(242,242,242);
+}
+.userlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14%;
+    position: relative;
+}
+
+#choose-image-btn{
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.username{
+    margin-top: 5%;
+    text-align: center;
+}
+.username h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.userprofileoption{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.userprofileoption svg{
+    font-size: 30px;
+}
+
+.userprofileoption.selected{
+    background-color: #0E9202;
+    color: white !important;
+    margin-left: 2rem;
+    padding: .6rem 1rem;
+    border-radius: 3px;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.userprofileoption.selected h1 a{
+    color: white;
+}
+
+
+
+.userprofileoption h1{
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.textbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    width: 70%;
+    outline: none;
+}
+
+.profileinformation tr td{
+    font-size: 20px;
+    padding: 10px auto;
+}
+
+.profileinformation{
+    width: 95%;
+}
+
+.tablerow{
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.flex-table{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rowheader{
+    width: 25%;
+}
+.gender{
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    color:grey;
+}
+.textbox{
+    width: 100%;
+
+}
+.button{
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    background: white;
+    margin: 15px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #218838;
+    color:white;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: white;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    color: black;
+    padding: 15px 50px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 whitesmoke;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: green;
+    color: white;
+    
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.change-image-label{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    border-radius: 50%;
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 55%;
+}
+
+.change-image-label svg{
+    margin: auto;
+}
+

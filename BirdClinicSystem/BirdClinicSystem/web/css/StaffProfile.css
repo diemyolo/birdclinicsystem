@@ -1,0 +1,372 @@
+
+.body, html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #F5F5F5;
+}
+.container-form{
+    position: relative; 
+    top: 100px;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding:50px;
+}
+.form-white{
+    padding:50px;
+    background-color: white;
+    border-radius: 10px;
+   
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.selecttextbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    background-color: #f6f6f6;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px 5px 5px 5px; 
+    width: 100%; 
+    margin: 5px; 
+    border: 2px solid #f6f6f6; 
+    background-position: right center;
+    border-right-width: 20px;
+}
+.cen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tablecc,tr{
+    width: 100%;
+/*    border-bottom: 1px solid rgba(201, 202, 202, 1); */
+    text-align: center;
+    font-weight: bold; 
+    color: rgba(63, 66, 84, 1);
+    opacity: 0.9;
+}
+.table-tr1{
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.tabble-tr{
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.table-tr td{
+    padding: 20px;
+    color: black;
+    border-bottom: 1px solid rgba(201, 202, 202, 1);
+}
+.table-tr1 td{
+    padding: 20px;
+    color: rgba(201, 202, 202, 1);   
+}
+.pending{
+    border-radius: 10px;
+    width: 100%;
+    background-color:rgba(255, 244, 222, 1);
+    color:rgba(255, 168, 0, 1);
+    
+}
+.completed{
+    border-radius: 10px;
+    width: 100%;
+    background-color:rgba(201, 247, 245, 1);
+    color:rgba(27, 197, 189, 1);
+}
+
+.appoint-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Date-box{
+    font-size:smaller;
+    border: none;
+    outline: none;
+}
+.box-shade{
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+        
+}
+
+/* Search Bar*/
+
+.search{
+    display: flex;
+    background: white;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.search input{
+    border: none;
+    width: 100%;
+
+}
+.search button{
+    border: none;
+    background-color: white;
+
+}
+.button{
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: green;
+}
+.rightprofile{
+    width: 100%;
+    font-size: 20px; 
+}
+.rightprofile h1{
+    font-size: 30px;
+    margin-bottom: 10px;    
+}
+
+.userlogo img{
+    border-radius: 50%;
+    width: 25%;
+}
+
+.userlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.username{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.username h1{
+    font-size: 25px;
+}
+
+.userprofileoption{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.userprofileoption h1{
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.textbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    width: 70%;
+    outline: none;
+}
+
+.profileinformation tr td{
+    font-size: 20px;
+    text-align: left;
+    padding: 50px auto;
+}
+
+.profileinformation{
+    width: 100%;
+}
+
+.tablerow{
+    width: 100%;
+    border-bottom: 2px black solid;
+}
+.tablerow:nth-child(2){
+    text-align: left;
+}
+.flex-table{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rowheader{
+    width: 25%;
+    text-align: left;
+}
+.gender{
+    border: none;
+    margin-left: 50px;
+    outline: none;
+    color:grey;
+}
+.textbox{
+    width: 100%;
+
+}
+.button{
+    border: 1px solid black;
+    background: white;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #3ED6A8;
+    color: white;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 50px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 whitesmoke;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: rgba(62, 214, 168, 1);
+    color: white;
+    
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+    opacity: 1;
+    pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+
+    margin: auto;
+    width: 90%;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header-text h1{
+    margin-bottom: -5px;
+}
+.header-text p{
+    margin-bottom: 0px; 
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row pic img{
+    height: 30px;
+}
+.modal-close{
+    text-align: right;
+    color: black;
+    margin-right: 30px;
+    margin-top: 1px;
+}
+.modal-close:hover{
+    color: red;
+
+}
+.textbox1{
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.hai-class{
+    width: 140%;
+}
+.form-table{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px; 
+    padding: 20px;
+}
+.form-table tr{
+    padding: 15px;
+}
+.left-name{
+    width: 23%;
+    text-align: left;
+    padding-left: 25px;
+    padding: 15px;
+}
+.right-name{
+    width: 27%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+

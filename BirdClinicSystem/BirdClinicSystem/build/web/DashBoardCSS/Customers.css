@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2023, 3:09:02 PM
+    Author     : Admin
+*/
+.hover_div_cus{
+    font-weight: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 6px;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.hover_div_cus:hover{
+    transition: all 0.2s ease;
+    color: white;
+}
+.button{
+   
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px 36px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: green;
+    color:white;
+}
+.button-sus{
+    max-width: 160px;
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-sus:hover{
+    background: red;
+    color:white;
+}

@@ -1,0 +1,290 @@
+.body{
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel{
+    z-index: 1;
+}
+
+.underlineHoverlogin:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+.underlineHoverlogin:hover {
+    color: #33ab5f ;
+}
+
+
+
+.underlineHover:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+
+.underlineHover:hover {
+    color: #33ab5f ;
+}
+
+.underlineHover:hover:after{
+    width: 100%;
+}
+.mark1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address{
+    text-align: center;
+}
+.mark1 h1{
+    margin-left: 5px;
+}
+
+.login2{
+    flex-grow: 4;
+    text-align: end;
+    margin-right: 2%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.userprofile{
+    display: flex;
+    position: relative;
+    top:100px;
+}
+
+.leftprofile{
+    background-color: rgba(225, 225, 225, 0.44);
+    width: 25%;
+}
+
+.rightprofile{
+    width: 75%;
+    margin: 30px;
+    font-size: 20px; 
+}
+.rightprofile h1{
+    font-size: 30px;
+    margin-bottom: 10px;    
+}
+
+.userlogo img{
+    border-radius: 50%;
+    width: 25%;
+}
+
+.userlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.username{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.username h1{
+    font-size: 25px;
+}
+
+.userprofileoption{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 15%;
+}
+
+.userprofileoption h1{
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.textbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    width: 70%;
+    outline: none;
+}
+/*----------------------------------------------------------------------------*/
+.modal-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+    margin: auto;
+    width: 90%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    background: linear-gradient(135deg, hsl(300, 40%, 20%),hsl(300, 40%, 5%));
+    box-shadow: 0 1rem 2rem #000a;
+}
+
+/*----------------------------------------------------------------------------*/
+.button{
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: green;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 whitesmoke;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: green;
+    color: white;
+
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin-top: 0px;
+    height: 50px;
+
+}
+
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    margin-bottom: 50px;
+    background-color: #23a097;
+}
+

@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 13, 2023, 11:29:28 AM
+    Author     : Admin
+*/
+
+
+.row-cell{
+    display: flex;
+    align-items: center;
+    gap: 50px;;
+    background-color: white;
+    margin:20px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.flexing{
+    display: flex;
+    justify-content: space-around;
+}
+.textbox{
+    text-decoration: none;
+    border: none;
+    margin-left: 50px;
+    width: 70%;
+     height: 100px;
+    outline: none;
+}
+input[type=text], textarea[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    outline: none;
+    color: #0d0d0d;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    width: 90%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    resize: none;
+}
+
+input[type=text]:focus, textarea[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]:placeholder, textarea[type=text]:placeholder {
+    color: #cccccc;
+}
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+    
+    margin: auto;
+    width: 90%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.form-container h1{
+    text-align: center;
+    color: rgba(41, 190, 27, 1);
+}
+.form-container p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding-left: 50px;
+    text-align: left;
+    color:rgba(102, 102, 102, 1);
+}
+.edit-button{
+    width: 150px;
+    margin: 30px;
+    
+    
+}
+.form-container flex-header{
+    display: flex;
+    justify-content: flex-end;
+}
+.form-container flex-header h1{
+    flex-grow: 2;
+    text-align: center;
+}
+.modal-close{
+    color: black;
+    margin-right: 30px;
+    margin-top: 1px;
+}
+.modal-close:hover{
+    color: red;
+   
+}

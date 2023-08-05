@@ -1,0 +1,123 @@
+.containerr {
+    width: 100%;
+    position: relative;
+    top: 100px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progressbar {
+    counter-reset: step;
+}
+.progressbar li {
+    list-style: none;
+    display: inline-block;
+    width: max-content;
+    position: relative;
+    text-align: center;
+    padding: 0 170px 0 170px;
+    color: rgba(0, 0, 0, 0.35);
+}
+.progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 60px;
+    height: 60px;
+    line-height : 60px;
+    border: 2px solid #ddd;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    background-color: #fff;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: 500;
+}
+.progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ddd;
+    top: 30px;
+    left: -50%;
+    z-index : -1;
+}
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+.progressbar li.completed{
+    color: green;
+}
+
+.progressbar li.completed:before{
+    background-color: green;
+    border-color: green;
+}
+
+.progressbar li.actived {
+    color: green;
+}
+.progressbar li.actived:before {
+    border-color: green;
+    color: green;
+} 
+.progressbar li.completed + li:after {
+    background-color: green;
+}
+
+.confirm-section{
+    width: 60%;
+    margin: 100px auto;
+}
+
+.confirm-form{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 50px 80px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.confirm-section a{
+    color: black;
+}
+
+.confirm-section a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.confirmation-detail td{
+    padding-right: 30px;
+}
+
+.buttons{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buttons a, .buttons input{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    background-color: #0e9202;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.buttons a:hover, .buttons input:hover{
+    transform: translateX(5px) translateY(-5px);
+    color: white;
+        box-shadow: -5px 5px 1px black;
+}

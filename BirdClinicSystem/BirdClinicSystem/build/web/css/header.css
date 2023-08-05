@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 29, 2023, 1:09:08 PM
+    Author     : Admin
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.row{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    height: 100px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    background-color: white;
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row pic img{
+    height: 30px;
+}
+.row menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.left-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-header-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.underlineHoverlogin:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+    text-decoration: none;
+}
+.underlineHoverlogin:hover {
+    color: green ;
+    text-decoration: none;
+}
+.underlineHoverlogin{
+    text-decoration: none;
+    color: black;
+
+}/*
+*/
+.underlineHover{
+    color: black;
+    text-decoration: none;
+}
+
+.underlineHover:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+    text-decoration: none;
+}
+
+.underlineHover:hover {
+    color: #33ab5f ;
+    text-decoration: none;
+}
+
+.underlineHover:hover:after{
+    width: 100%;
+    text-decoration: none;
+}
+.left-header-user h3{
+    position: relative;
+    font-size: 26px;
+    background: #58D68D;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 12px;
+    z-index: 2;
+}
+
+.left-header h3{
+    position: relative;
+    right: 98px;
+    font-size: 26px;
+    background: #58D68D;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 12px;
+    z-index: 2;
+}
+.centerlogout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userlogo-header img{
+    max-width: 84px;
+    min-height: 84px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid rgb(242,242,242);
+}
+.userlogo-header{
+    position: absolute;
+    padding-right: 10px;
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #58D68D;
+    border-radius: 0px 20px 20px 0px
+}

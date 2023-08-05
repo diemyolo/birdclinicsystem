@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 7, 2023, 9:26:21 PM
+    Author     : Admin
+*/
+.form-in{
+    margin: auto;
+    width: 90%;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*----------Invoice-----------*/
+.pic{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row pic img{
+    height: 35px;
+}
+.text-logo{
+    text-align: left;
+    color:black;
+    opacity: 0.9;
+}
+.text-under{
+    border-bottom: 1px solid black;
+}
+.row-hai{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:600px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+}
+.blend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:600px;
+    padding: 10px;
+    background-color: rgba(225, 225, 225, 0.5);
+    
+}
+.row-ba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 30px;
+    gap:127px;
+}
+.blend-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap:226px;
+    background-color: rgba(225, 225, 225, 0.5);
+    
+}
+
+.row-cell{
+    display: flex;
+    align-items: center;
+    gap: 50px;;
+    background-color: white;
+    margin:20px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+
+
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+    opacity: 1;
+    pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+
+    margin: auto;
+    width: 90%;
+    max-width: 50rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.header-text h1{
+    margin-bottom: -5px;
+}
+.header-text p{
+    margin-bottom: 0px; 
+}
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row pic img{
+    height: 30px;
+}
+.modal-close{
+    text-align: right;
+    color: black;
+    margin-right: 2px;
+    margin-top: 1px;
+}
+.modal-close:hover{
+    color: red;
+
+}
+.textbox1{
+    width: 100%;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.hai-class{
+    width: 140%;
+}
+.table-row{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 20px;
+}
+.row1 div{
+    padding: 5px;
+    text-align: left;
+}
+.flexing-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------POP_UP CSS----------*/
+.modal-container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+    opacity: 1;
+    pointer-events: all;
+}
+/* The popup form - hidden by default */

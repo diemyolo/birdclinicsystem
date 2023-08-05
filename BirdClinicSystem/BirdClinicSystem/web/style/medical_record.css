@@ -1,0 +1,74 @@
+.form_wrapper{
+    width: 50%;
+    margin: 50px auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.back_btn{
+    color: black;
+    display: inline-block;
+    width: 50%;
+    display: flex;
+    margin: 30px auto 0;
+    font-size: 110%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.back_btn:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.form_title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.form_detail_wrapper{
+    width: 100%;
+}
+
+.form_detail_table{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+
+.form_detail_table td{
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#diagnosis, #treatment, #symptoms{
+    border: none;
+    resize: none;
+    width: 100%;
+}
+
+#diagnosis:focus-visible, #treatment:focus-visible, #symptoms:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.btnwrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.submitBtn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #0E9202;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 30, 2023, 8:09:36 PM
+    Author     : Admin
+*/
+.h1{
+    text-align: center;
+}
+.weekly_timetable{
+    width: 100%;
+    margin-top: 2rem;
+
+}
+td,th,tr{
+    text-align: center;
+    padding: 30px;
+}
+td,th{
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 10%;
+}
+
+tr th:not(:first-child){
+    background-color: rgba(62, 214, 168, 0.8);
+    color:white;
+}
+.th-1st{
+    font-size: 20px;
+    color: rgba(62, 214, 168, 1);
+    font-weight: bold;
+}
+.tr-2nd{
+    color: black;
+}
+.tr-2nd:hover{
+    background: #0db783;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: ease 0.6s ;
+}
+.tr-2nd a{
+    text-decoration: none;
+    color: white;
+}
+

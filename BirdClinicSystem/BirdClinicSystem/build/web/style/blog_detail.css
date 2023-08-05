@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.blogCreator{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-start;
+}
+
+.blogCreator img{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 30px;
+}
+
+.blogCreator h6{
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.blog_img img{
+    width: 850px;
+}
+.format{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.blog_detail_body{
+    position: relative;
+    top: 50px;
+
+    width: 95%;
+    margin: 100px auto 200px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 40px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    /*text-align: center;*/
+    margin: 30px 0;
+    color: #31A308;
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+ol{
+    margin: 25px 0;
+    margin-left: 30px;
+}
+
+ol li{
+    color: #31A308;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px 0;
+}
+
+strong{
+    color: #31A308;
+    font-weight: 900;
+}
+
+p{
+    margin: 20px 0;
+}
+
+.conclusion {
+    font-style: italic;
+    /*text-align: center;*/
+}
+
+/*sider*/
+
+/*.tool_box{
+    margin-bottom: 80px;
+}
+
+input:focus{
+    outline: none;
+}
+ Style for the search input 
+.search-input {
+    padding: 8px;
+    border: 0.5px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.search-button:hover {
+    background-color: #45a049;
+}*/
+
+.divider{
+    border: none;
+    border-bottom: 1.5px solid rgba(115, 115, 115, 0.5);
+    width: 95%;
+    margin: 10px 0;
+    box-shadow: 0px 1.5px 2.5px rgba(0, 0, 0, 0.25);
+}
+
+.category{
+    margin-top: 200px;
+}
+
+h4{
+    font-weight: 200;
+    font-size: 15px;
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.recent_blog{
+    margin-top: 70px;
+}
+
+.blogIndex{
+    display: flex;
+    margin: 18px 0;
+    align-items: center;
+}
+
+.blogIndex img{
+    height: 50px;
+}
+
+.blogIndex h6{
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.vertical_banner{
+    width: 95%;
+    margin-top: 50px;
+    float: right;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+}

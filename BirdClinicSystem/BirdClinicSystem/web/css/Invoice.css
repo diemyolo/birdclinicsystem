@@ -1,0 +1,576 @@
+.body{
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel{
+    z-index: 1;
+}
+
+.underlineHoverlogin:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+.underlineHoverlogin:hover {
+    color: #33ab5f ;
+}
+
+
+
+.underlineHover:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+}
+
+.underlineHover:hover {
+    color: #33ab5f ;
+}
+
+.underlineHover:hover:after{
+    width: 100%;
+}
+.mark1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address{
+    text-align: center;
+}
+.mark1 h1{
+    margin-left: 5px;
+}
+
+.login2{
+    flex-grow: 4;
+    text-align: end;
+    margin-right: 2%;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.userprofile{
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    top:100px;
+}
+
+.leftprofile{
+    margin: 0px 0 200px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(225, 225, 225, 0.44);
+    width: 25%;
+    padding-bottom: 5%;
+}
+
+.userlogo img{
+    max-width: 120px;
+    min-height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 7px solid rgb(242,242,242);
+}
+
+.userlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -14%;
+    position: relative;
+}
+
+.change-image-label{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: black;
+    border-radius: 50%;
+    color: #fff;
+    margin: auto;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 55%;
+}
+
+.change-image-label svg{
+    margin: auto;
+}
+
+#choose-image-btn{
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.username{
+    margin-top: 5%;
+    text-align: center;
+}
+.username h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.userprofileoption{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.userprofileoption svg{
+    font-size: 30px;
+}
+
+.userprofileoption.selected{
+    background-color: #0E9202;
+    color: white !important;
+    margin-left: 2rem;
+    padding: .6rem 1rem;
+    border-radius: 3px;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.userprofileoption h1{
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.userprofileoption.selected h1 a{
+    color: white;
+}
+
+.rightprofile{
+    width: 75%;
+    margin: 30px;
+    font-size: 20px;
+    margin-top: 0;
+}
+.rightprofile h1{
+    font-size: 30px;
+    margin-bottom: 10px;    
+}
+.rightprofile h2{
+    font-size: 24px;
+    color: rgba(122, 122, 122, 1);
+
+}
+.info-title{
+    margin-top: 20px;
+    background-color: rgba(80, 174, 36, 0.83);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
+}
+.info-title p{
+    margin-bottom: 0px;
+}
+.info-user{
+    margin-top: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.info-user p{
+    margin-bottom: 0px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+
+}
+table tr{
+
+}
+.first-table{
+
+    height: 70px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;    
+}
+.first-table td:first-child{
+    width: 50%;
+    padding-left: 50px;
+}
+.first-table td:nth-child(2){
+    width: 25%;
+    text-align: center;
+}
+.first-table td:last-child {
+    width: 25%;
+    text-align: center;
+}
+
+.second-table td:first-child{
+    width: 50%;
+    padding-left: 50px;
+    border-bottom: 2px solid black;
+}
+.second-table td:nth-child(2){
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.second-table td:last-child {
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.third-table{
+    margin-top: 50px;   
+    font-size: 40px;
+    background: #F8F8F8;
+    border: 1px solid #E2E2E2;
+    border-radius: 8%;
+}
+.third-table tr td p{
+    margin-bottom: 0px;
+}
+.third-table td:first-child{
+    width: 50%;
+    padding-left: 50px;
+}
+.third-table td:nth-child(2){
+    width: 25%;
+    font-size: 24;
+    font-weight: bold;
+    text-align: center;
+}
+.third-table td:last-child {
+    width: 25%;
+    text-align: center;
+    font-size: 24;
+    font-weight: bold;
+}
+
+
+
+.button{
+    border: 1px solid black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: green;
+}
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 whitesmoke;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: green;
+    color: white;
+
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin-top: 0px;
+    height: 50px;
+
+}
+
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.7s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    margin-bottom: 50px;
+    background-color: #23a097;
+}
+/*----------POP_UP CSS----------*/
+.modal-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease-in-out;
+    background-color: rgba(0,0,0,0.75);
+}
+.modal-container:target {
+    opacity: 1;
+    pointer-events: all;
+}
+/* The popup form - hidden by default */
+.form-popup {
+    margin: auto;
+    width: 100%;
+    max-width: 40rem;
+    background-color: white;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+}
+/*------------css basic----------------*/
+.form-container{
+    padding: 20px;
+}
+.form-container h1{
+    text-align: center;
+    color: rgba(41, 190, 27, 1);
+}
+.modal-close{
+    color: black;
+}
+.modal-close:hover{
+    color: red;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.container{
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .post{
+    display: none;
+}
+.container .text{
+    font-size: 25px;
+    color: #666;
+    font-weight: 500;
+}
+.container .edit{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .edit:hover{
+    text-decoration: underline;
+}
+.container .star-widget input{
+    background-color: white;
+    display: none;
+}
+.star-widget label{
+    background-color: white;
+    font-size: 40px;
+    color: #444;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: #fd4;
+}
+input#rate-5:checked ~ label{
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+}
+#rate-1:checked ~ form header:before{
+    content: "I just hate it ";
+}
+#rate-2:checked ~ form header:before{
+    content: "I don't like it ";
+}
+#rate-3:checked ~ form header:before{
+    content: "It is awesome ";
+}
+#rate-4:checked ~ form header:before{
+    content: "I just like it ";
+}
+#rate-5:checked ~ form header:before{
+    content: "I just love it ";
+}
+.container form{
+    display: none;
+}
+input:checked ~ form{
+    display: block;
+}
+form header{
+    width: 100%;
+    font-size: 25px;
+    color: #fe7;
+    font-weight: 500;
+    margin: 5px 0 20px 0;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+form .textarea{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: black;
+    border: 1px solid #333;
+    background: white;
+    padding: 10px;
+    font-size: 17px;
+    resize: none;
+}
+.textarea textarea:focus{
+    border-color: #444;
+}
+form .btn{
+    height: 45px;
+    width: 100%;
+    margin: 15px 0;
+}
+form .btn button{
+    width: 100%;
+    border: 1px solid #444;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form .btn button:hover{
+    background: green;
+    color: white;
+}
+/*----------POP_UP CSS----------*/

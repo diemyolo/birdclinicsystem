@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2023, 5:44:53 AM
+    Author     : Admin
+*/
+
+.pictureCarusel{
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+.pictureCarusel h1{
+    font-size: 100px;
+    margin: 0px auto;
+}
+
+
+.container-content{
+    position: relative;
+    top: 100px; 
+    
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.content-detail h2{
+    color: green;
+}
+.center-div{
+    text-align: center;
+    padding-top: 20px;
+}
+.button{
+    width: 30%;
+    background-color: green;
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+.content-detail{
+    width: 75%;
+    padding: 20px;
+    margin: 30px;
+}
+.sub-info{
+    background-color: #F9F5F6;
+    width: 25%;
+    text-align: right;
+    margin-left: 30px;
+}
+.other-service{
+    font-size: 30px;
+    text-align: center;
+}
+.underlineHover1{
+    color: black;
+    text-decoration: none;
+}
+
+.underlineHover1:after {
+    display: block;
+    left: 5;
+    bottom: -15px;
+    width: 0;
+    height: 3px;
+    background-color: #33ab5f ; 
+    content: "";
+    transition: width 0.5s;
+    text-decoration: none;
+}
+
+.underlineHover1:hover {
+    color: #33ab5f ;
+    text-decoration: none;
+}
+
+.underlineHover1:hover:after{
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*button customize*/
+
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+
+/* Google Fonts - Poppins */
+
+.body-slider{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contain-slider{
+    background: linear-gradient(0deg, rgba(49, 163, 8, 0.2), rgba(49, 163, 8, 0.2)), linear-gradient(0deg, rgba(59, 160, 50, 0.83), rgba(59, 160, 50, 0.83)), url("../img/banner1.jpg");
+    background-size: 100%; 
+}
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px;
+    background-color: #FFF;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    height: 20%;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #265DF2;
+}
+
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}
